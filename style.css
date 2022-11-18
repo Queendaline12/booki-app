@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin: 0.5%;
+
+
+}
+nav{
+    display: flex;
+    padding: 2%, 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link{
+    flex: 1;
+    text-align: right;
+}
+.nav_link ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+a {
+    text-decoration-line: none;
+    color: black;
+}
+a:hover {
+    color: #0065FC;
+    text-decoration: overline;
+}
+form{
+    border: medium solid #F2F2F2;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    padding: 0%;
+}
+#search-button{
+    background-color: #0065FC;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    margin-right: 0px;
+}
+#towns{
+    border: 0px;
+    font-weight: bold;
+
+}
+.fa-solid {
+    color: #0065FC;
+}    
+.fa-location-dot{
+    object-fit: cover;
+    padding: 11px 15px 11px 15px;
+    border-radius: 10px 0 0 10px;
+    background-color: #F2F2F2;
+}
+
+.cost-filter{
+    border: medium solid #F2F2F2;
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-money-bill-wave{
+    background-color: #deebff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px; 
+    border: 2px solid #deebff;
+    color: #0065FC;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.family-filter{
+    border: medium solid #F2F2F2;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;  
+}
+.fa-child-reaching{
+    background-color: #deebff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px; 
+    border: 2px solid #deebff;
+    color: #0065FC;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.romatic-filter{
+    border: medium solid #F2F2F2;
+    width: 130px;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-heart{
+    background-color: #deebff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px; 
+    border: 2px solid #deebff;
+    color: #0065FC;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.pets-filter{
+    border: medium solid #F2F2F2;
+    width: 160px;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-dog{
+    background-color: #deebff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px; 
+    border: 2px solid #deebff;
+    color: #0065FC;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+
+}
+.Hotels_in_marseille{
+background-color: #F2F2F2;
+border-radius: 10px;
+width: 600px;
+height: 600px;
+}
+.marseille_cards{
+display: grid;
+grid-template-columns: 200px 200px 200px;
+grid-template-rows: 200px 200px 200px;
+background-color: white;
+
+}
+@media screen (max-width: 768) {
+    display: block;
+}
+    
+  
